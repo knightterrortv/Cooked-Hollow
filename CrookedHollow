@@ -1,0 +1,121 @@
+[
+  {
+    "name": "Blood Bolt+",
+    "level": 0,
+    "school": "N",
+    "cast_time": "1 action",
+    "range": "120 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "description": "You sacrifice a small measure of your own vitality to strike a creature within range with a bolt of coagulated, magical blood. When you cast this spell, you can choose to expend one of your Hit Dice to add the number rolled to the spell's damage roll, taking necrotic damage equal to the roll. Make a ranged spell attack against the target for 2d10 necrotic damage on a hit.",
+    "higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.",
+    "source": "The Crooked Moon"
+  },
+  {
+    "name": "Dissolution+",
+    "level": 0,
+    "school": "N",
+    "cast_time": "1 action",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "description": "Attempt to accelerate a creature's decay with a ranged spell attack dealing 1d8 necrotic damage (1d12 if the target is a corpse or undead).",
+    "higher_levels": "This spell's damage increases by one die when you reach 5th level, 11th level, and 17th level.",
+    "source": "The Crooked Moon"
+  },
+  {
+    "name": "Eye Burn+",
+    "level": 0,
+    "school": "E",
+    "cast_time": "1 reaction, when attacked",
+    "range": "30 feet",
+    "components": "V, S",
+    "duration": "Until the end of the current turn",
+    "description": "Flash an agonizing glare at your attacker. The target makes a Wisdom save or is Blinded until the end of its current turn; success reduces the triggering attack roll by 1d4.",
+    "higher_levels": "The reduction increases to 1d6 at 5th level, 1d8 at 11th level, and 1d10 at 17th level.",
+    "source": "The Crooked Moon"
+  },
+  {
+    "name": "Mysterious Presence+",
+    "level": 0,
+    "school": "I",
+    "cast_time": "1 action",
+    "range": "Self",
+    "components": "V",
+    "duration": "Concentration, up to 1 minute",
+    "description": "Weave an unsettling aura around yourself. You have advantage on Dexterity (Stealth) checks made to hide in dim light or darkness.",
+    "source": "The Crooked Moon"
+  }
+  {
+    "name": "Calling Card+",
+    "level": 0,
+    "school": "I",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": "S, M (a stamp carved like the mark left by your calling card)",
+    "duration": "Until dispelled",
+    "description": "You touch a corpse and leave a magical mark. You can choose to make it a visible mark that appears as a rune or word written on the flesh, or you can choose to make the mark Invisible. A creature that takes the Study action to specifically examine a corpse automatically detects it, whether visible or Invisible.",
+    "higher_levels": "",
+    "source": "Grim Hollow"
+  },
+  {
+    "name": "Frightful Start+",
+    "level": 0,
+    "school": "I",
+    "cast_time": "1 action",
+    "range": "30 feet",
+    "components": "V, S, M (a dead spider)",
+    "duration": "1 round",
+    "description": "You twist your visage to scare a creature that you can see within range. The creature must succeed on a Wisdom saving throw or have the Frightened condition until the start of your next turn.",
+    "higher_levels": "",
+    "source": "Grim Hollow"
+  },
+  {
+    "name": "Holy Word+",
+    "level": 0,
+    "school": "E",
+    "cast_time": "1 action",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "description": "You whisper a divine word under your breath, careful not to speak loudly, for such celestial power isn’t for the unworthy. Make a ranged spell attack against a target within range. On a hit, the target takes 1d8 Radiant damage. If the target is Fey, Fiend, or Undead, its Speed is reduced by 10 feet and it can’t take Reactions until the end of your next turn.",
+    "higher_levels": "The damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+    "source": "Grim Hollow"
+  },
+  {
+    "name": "Hunter Sense+",
+    "level": 0,
+    "school": "D",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "Concentration, up to 1 minute",
+    "description": "You touch a willing creature. For the duration, the target’s senses are heightened. Whenever the target makes a Wisdom (Perception) check, it can treat a d20 roll of 9 or lower as a 10.",
+    "higher_levels": "",
+    "source": "Grim Hollow"
+  },
+  {
+    "name": "Illusory Instrument+",
+    "level": 0,
+    "school": "I",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "10 minutes",
+    "description": "You create an illusionary copy of a mundane musical instrument. The copy of the instrument takes on the shape of your fondest memory of the instrument, such as the first flute you owned or the half harp gifted to you by a loved one. This illusion moves as its physical counterpart would, but it is weightless and is tangible only to you. This instrument can be used as a Spellcasting Focus. This illusory instrument dissipates if you move 10 feet away from it or choose to end the spell, no action required. As a Bonus Action, you can command your instrument to mimic basic sounds heard on a daily basis, such as a bird chirping, footsteps, or a slamming door; automatically play a basic beat at the tempo of your choice; record anything played on it and play it back on a loop; or record and playback any noise that it could pick up within 15 feet, such as conversation, a royal decree, or a snoring party member.",
+    "higher_levels": "",
+    "source": "Grim Hollow"
+  },
+  {
+    "name": "Preserve+",
+    "level": 0,
+    "school": "T",
+    "cast_time": "1 action",
+    "range": "Touch",
+    "components": "V, S, M (a sack containing a pinch of salt)",
+    "duration": "12 hours",
+    "description": "Food and other perishable items weighing 5 pounds or less that you place in a sack don’t age or decay for the duration.",
+    "higher_levels": "",
+    "source": "Grim Hollow"
+  }
+]
