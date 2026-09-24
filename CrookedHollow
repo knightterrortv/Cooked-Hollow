@@ -1,16 +1,49 @@
 [
-  {
-    "name": "Blood Bolt+",
-    "level": 0,
-    "school": "N",
-    "cast_time": "1 action",
-    "range": "120 feet",
-    "components": "V, S",
-    "duration": "Instantaneous",
-    "description": "You sacrifice a small measure of your own vitality to strike a creature within range with a bolt of coagulated, magical blood. When you cast this spell, you can choose to expend one of your Hit Dice to add the number rolled to the spell's damage roll, taking necrotic damage equal to the roll. Make a ranged spell attack against the target for 2d10 necrotic damage on a hit.",
-    "higher_levels": "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d10 for each slot level above 1st.",
-    "source": "The Crooked Moon"
+ {
+  "name": "Blood Bolt+",
+  "level": 0,
+  "school": "N",
+  "casttime": "1 action",
+  "range": "90 feet",
+  "components": {
+    "verbal": true,
+    "somatic": true
   },
+  "duration": "Instantaneous",
+  "classes": "Sorcerer, Warlock, Wizard",
+  "description": "You hurl a twisting bolt of blood at a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d6 necrotic damage, and you gain a number of temporary hit points equal to your proficiency bonus.",
+  "higherlevels": "The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
+  "automation": [
+    {
+      "type": "target",
+      "target": "each",
+      "effects": [
+        {
+          "type": "attack",
+          "hit": [
+            {
+              "type": "damage",
+              "damage": "1d6[necrotic]",
+              "cantripScale": true
+            },
+            {
+              "type": "target",
+              "target": "self",
+              "effects": [
+                {
+                  "type": "temphp",
+                  "amount": "proficiencyBonus"
+                }
+              ]
+            }
+          ],
+          "miss": []
+        }
+      ]
+    }
+  ],
+  "source": "The Crooked Moon"
+},
   {
     "name": "Dissolution+",
     "level": 0,
